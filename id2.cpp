@@ -40,3 +40,6 @@ int main(){
     return 0;
 
 }
+
+//i was thinking i will find the number like direct result and then will check if it is possible to actuallyy
+//achieve that is the right answer but iam completely wrong for now
