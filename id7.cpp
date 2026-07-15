@@ -13,14 +13,16 @@ int main(){
         int m = n-t;
 
 
-        string s= string(t, ' ');
+        string s= string(2*t, ' ');
 
         for(int j=0 ; j<=m;j++){
             s.push_back(j+'0');
+            s.push_back(' ');
         }
 
         for(int j=m-1 ; j >= 0 ; j--){
             s.push_back(j+'0');
+             s.push_back(' ');
         }
 
         cout<<s<<endl;
